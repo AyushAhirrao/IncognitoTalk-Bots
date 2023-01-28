@@ -13,8 +13,8 @@ app.use(function (req, res, next) {
     next();
 });
 
-// mathematician
-app.get('/expression', async (req, res) => {
+// calculator bot
+app.get('/calculate', async (req, res) => {
     let expression = decodeURIComponent(req.query.expression);
     console.log(expression);
     try {
