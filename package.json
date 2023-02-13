@@ -2,9 +2,9 @@
   "name": "incognitotalk-bots",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bots/Bots.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install": "if [ ! -d node_modules ]; then npm install; fi"
   },
   "author": "",
   "license": "ISC",

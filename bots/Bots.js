@@ -99,5 +99,5 @@ app.get('/compiler', async (req, res) => {
 
 
 app.listen(7774, () => {
-    console.log('Math API listening on port 7774!');
+    console.log('API listening on port 7774!');
 });
